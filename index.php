@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="assets/styles.css">
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-  <div class="sidebar">
+  <div class="sidebar" id="sidebar">
     <ul class="nav-links">
+      <div class="box-profile">
+        <img src="assets/img/1.png" alt="">
+        <h3>Nurafiif Almas</h3>
+        <p>Nurafiif Almas</p>
+      </div>
       <li>
         <a href="#">
-          <i class='bx bx-grid-alt' ></i>
+          <i class='bx bx-line-chart' ></i>
           <span class="link_name">Realtime</span>
         </a>
       </li>
@@ -22,93 +28,72 @@
         <div class="iocn-link">
           <a href="#">
             <i class='bx bx-collection' ></i>
-            <span class="link_name">Daftar Data User</span>
+            <span class="link_name">Data User</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="sub-menu">
-          <li><a href="#">HTML & CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-          <li><a href="#">PHP & MySQL</a></li>
+          <li><a href="#">User Aktif</a></li>
+          <li><a href="#">User Non Aktif</a></li>
         </ul>
       </li>
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
-            <span class="link_name">Posts</span>
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Data Pengolahan</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="sub-menu">
-          <li><a class="link_name" href="#">Posts</a></li>
-          <li><a href="#">Web Design</a></li>
-          <li><a href="#">Login Form</a></li>
-          <li><a href="#">Card Design</a></li>
+          <li><a href="#">Pembangkit</a></li>
+          <li><a href="#">Tegangan</a></li>
+          <li><a href="#">Forcasting</a></li>
         </ul>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-pie-chart-alt-2' ></i>
-          <span class="link_name">Analytics</span>
+          <i class='bx bx-collection' ></i>
+          <span class="link_name">Data Operasi</span>
         </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Analytics</a></li>
-        </ul>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-line-chart' ></i>
-          <span class="link_name">Chart</span>
+          <i class='bx bx-collection' ></i>
+          <span class="link_name">Documentation</span>
         </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Chart</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-          <a href="#">
-            <i class='bx bx-plug' ></i>
-            <span class="link_name">Plugins</span>
-          </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="#">Plugins</a></li>
-          <li><a href="#">UI Face</a></li>
-          <li><a href="#">Pigments</a></li>
-          <li><a href="#">Box Icons</a></li>
-        </ul>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-compass' ></i>
-          <span class="link_name">Explore</span>
+          <i class='bx bx-conversation' ></i>
+          <span class="link_name">Forum</span>
         </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Explore</a></li>
-        </ul>
       </li>
+      <hr>
+      <br>
+      <br>
+      <br>
       <li>
         <a href="#">
-          <i class='bx bx-history'></i>
-          <span class="link_name">History</span>
+          <i class='bx bx-log-out' ></i>
+          <span class="link_name">Logout</span>
         </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">History</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <i class='bx bx-cog' ></i>
-          <span class="link_name">Setting</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Setting</a></li>
-        </ul>
       </li>
     </ul>
   </div>
+  
+  <div class="nav_responsive">
+    <a href="javascript:void(0);" class="icon" onclick="sidebar_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div class="main">
+    <div class="header">
+      <a>Realtime</a>
+    </div>
+  </div>
+
 </body>
 </html>
 

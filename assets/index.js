@@ -11,3 +11,17 @@ console.log(sidebarBtn);
 sidebarBtn.addEventListener("click", ()=>{
   sidebar.classList.toggle("close");
 });
+
+// function iconbar_responsive() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.className === "topnav") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "topnav";
+//   }
+// }
+
+function sidebar_open() {
+  var elementSidebar = document.getElementById("sidebar");
+  elementSidebar.classList.toggle("sidebar_open");
+}
