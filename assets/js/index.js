@@ -25,3 +25,4 @@ function sidebar_open() {
   var elementSidebar = document.getElementById("sidebar");
   elementSidebar.classList.toggle("sidebar_open");
 }
+
